@@ -1,4 +1,4 @@
-# clearJunk - Python Script for Cleaning Up Directories
+# ClearJunk - Python Script for Cleaning Up Directories
 
 The `clearJunk` Python script is designed to help you clean up and organize files within a specified directory. The script performs various cleaning and organizing tasks to help you manage your files more efficiently.
 
