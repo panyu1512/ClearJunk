@@ -9,10 +9,10 @@ The `clearJunk` Python script is designed to help you clean up and organize file
 - [Description](#description)
 - [Functions](#functions)
   - [Initialization](#initialization)
-  - [`remove_temp_files(self)`](#remove_temp_filesself)
-  - [`remove_duplicated_files(self)`](#remove_duplicated_filesself)
-  - [`clean_up_directory(self)`](#clean_up_directoryself)
-  - [`remove_old_files(self)`](#remove_old_filesself)
+  - [`remove_temp_files`](#remove_temp_filesself)
+  - [`remove_duplicated_files`](#remove_duplicated_filesself)
+  - [`clean_up_directory`](#clean_up_directoryself)
+  - [`remove_old_files`](#remove_old_filesself)
 - [Usage](#usage)
 - [How to Run the Script](#how-to-run-the-script)
 - [Important Notes](#important-notes)
@@ -21,10 +21,10 @@ The `clearJunk` Python script is designed to help you clean up and organize file
 
 The `clearJunk` script is organized into a class with several functions that perform different file management tasks:
 
-- `remove_temp_files(self)`: Removes temporary files with specific extensions from the directory.
-- `remove_duplicated_files(self)`: Identifies duplicated files with version numbers and keeps only the most recent version.
-- `clean_up_directory(self)`: Organizes files by moving them into subfolders based on their types and handles ZIP files.
-- `remove_old_files(self)`: Removes files that have been inactive for a specified number of days.
+- `remove_temp_files`: Removes temporary files with specific extensions from the directory.
+- `remove_duplicated_files`: Identifies duplicated files with version numbers and keeps only the most recent version.
+- `clean_up_directory`: Organizes files by moving them into subfolders based on their types and handles ZIP files.
+- `remove_old_files`: Removes files that have been inactive for a specified number of days.
 
 ## Functions
 
