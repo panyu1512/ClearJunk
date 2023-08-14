@@ -170,3 +170,13 @@ class clearJunk:
                 if os.stat(file_path).st_mtime < inactivity_days * 86400:
                     os.remove(file_path)
                     print(f"Removed {file_path}")
+
+if __name__ == "__main__":
+    import sys
+    directory_path = sys.argv[1]
+    destination_path = sys.argv[2]
+    clearJunk = clearJunk(directory_path, destination_path)
+    clearJunk.remove_temp_files()
+    clearJunk.remove_duplicated_files()
+    clearJunk.clean_up_directory()
+    clearJunk.remove_old_files()
